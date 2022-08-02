@@ -1,2 +1,2 @@
 # CookeCNC
-Cooke CNC Service CNC | Parts Contact Us About Us Supplying CNC Parts Worldwide
+Cooke Service CNC | Supplying CNC Parts Worldwide
