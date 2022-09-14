@@ -1,0 +1,692 @@
+{
+    "inventory": {
+        "brands":[
+            {
+                "id": 1,
+                "brandName": "Allen Bradley",
+                "brandConfig": [
+                    {
+                        "config": "AB 7300-8000 Series",
+                        "onHandStock": [
+                            {
+                                "description": "SPARE PARTS KIT",
+                                "catalogNumber": "170948",
+                                "boardNumber": "1395-170498",
+                                "inStock": true
+                            },
+                            {
+                                "description": "AC INPUT MODULE",
+                                "catalogNumber": "1771-1A",
+                                "boardNumber": "N/A",
+                                "inStock": true
+                            },
+                            {
+                                "description": "EXEC MODULE - LATHE",
+                                "catalogNumber": "N/A",
+                                "boardNumber": "900007-9002",
+                                "inStock": true
+                            },
+                            {
+                                "description": "12 IN MONITOR (BALL TV 120)",
+                                "catalogNumber": "7300-ACRT1",
+                                "boardNumber": "N/A",
+                                "inStock": false
+                            },
+                            {
+                                "description": "MAIN POWER SUPPLY",
+                                "catalogNumber": "7300-AVPB1",
+                                "boardNumber": "634365-1",
+                                "inStock": false
+                            },
+                            {
+                                "description": "I/O MULTIPLEXER",
+                                "catalogNumber": "7300-UAE",
+                                "boardNumber": "634483-90",
+                                "inStock": true
+                            },
+                            {
+                                "description": "I/O MULTIPLEXER",
+                                "catalogNumber": "7300-UAE",
+                                "boardNumber": "634483-9005",
+                                "inStock": true
+                            },
+                            {
+                                "description": "I/O RACK MULTIPLEXER MODULE",
+                                "catalogNumber": "7300-UAF",
+                                "boardNumber": "634484A-90",
+                                "inStock": true
+                            },
+                            {
+                                "description": "I/O RACK MULTIPLEXER MODULE",
+                                "catalogNumber": "7300-UAF",
+                                "boardNumber": "634484AS-C",
+                                "inStock": true
+                            },
+                            {
+                                "description": "I/O RACK MULTIPLEXER MODULE",
+                                "catalogNumber": "7300-UAF2",
+                                "boardNumber": "634484S-C",
+                                "inStock": true
+                            },
+                            {
+                                "description": "MAIN & SECONDARY CONTROL PANEL INTERFACE MODULE",
+                                "catalogNumber": "7300-UBA",
+                                "boardNumber": "634275-90",
+                                "inStock": true
+                            },
+                            {
+                                "description": "MAIN & SECONDARY CONTROL PANEL INTERFACE MODULE",
+                                "catalogNumber": "7300-UBA2",
+                                "boardNumber": "634275A-90",
+                                "inStock": true
+                            },
+                            {
+                                "description": "MAIN & SECONDARY CONTROL PANEL INTERFACE MODULE",
+                                "catalogNumber": "7300-UBA3",
+                                "boardNumber": "634275A-90",
+                                "inStock": false
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "7300-UCE",
+                                "boardNumber": "634262",
+                                "inStock": true
+                            },
+                            {
+                                "description": "INTERFACE CARD",
+                                "catalogNumber": "7300-UCE2",
+                                "boardNumber": "634262-9011",
+                                "inStock": false
+                            },
+                            {
+                                "description": "INTERFACE MODULE CRT/MDI 60HZ",
+                                "catalogNumber": "7300-UCE3",
+                                "boardNumber": "634262G",
+                                "inStock": false
+                            },
+                            {
+                                "description": "TAPE READ/TAPE PUNCH MODULE",
+                                "catalogNumber": "7300-UCI",
+                                "boardNumber": "634384E",
+                                "inStock": true
+                            },
+                            {
+                                "description": "TAPE READ",
+                                "catalogNumber": "7300-UCI2",
+                                "boardNumber": "634384E-90",
+                                "inStock": false
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "7300-UCJ",
+                                "boardNumber": "634385-90",
+                                "inStock": true
+                            },
+                            {
+                                "description": "DNC INTERFACE MOD (RS-232)",
+                                "catalogNumber": "7300-UCJ1",
+                                "boardNumber": "634385-90",
+                                "inStock": false
+                            },
+                            {
+                                "description": "TAPE READ/PUNCH INTERFACE MODULE",
+                                "catalogNumber": "7300-UCQ",
+                                "boardNumber": "634951-90",
+                                "inStock": true
+                            },
+                            {
+                                "description": "MODULE TAPE PUNCH",
+                                "catalogNumber": "7300-UCQ2",
+                                "boardNumber": "634951",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "7300-UCS",
+                                "boardNumber": "635206-90",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "7300-UCV",
+                                "boardNumber": "635311-90",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "7300-UDB",
+                                "boardNumber": "634303B-91",
+                                "inStock": true
+                            },
+                            {
+                                "description": "SERVO OUTPUT MODULE +/- 9VDC",
+                                "catalogNumber": "7300-UDB3",
+                                "boardNumber": "634303B-91",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "7300-UIA",
+                                "boardNumber": "634173I-90",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "7300-UIB",
+                                "boardNumber": "634174-90",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "7300-UID",
+                                "boardNumber": "N/A",
+                                "inStock": false
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "7300-UIG",
+                                "boardNumber": "634699",
+                                "inStock": true
+                            },
+                            {
+                                "description": "FEEDBACK MODULE",
+                                "catalogNumber": "7300-UMA",
+                                "boardNumber": "634281-90",
+                                "inStock": true
+                            },
+                            {
+                                "description": "RESOLVER FEEDBACK MODULE",
+                                "catalogNumber": "7300-UMA1",
+                                "boardNumber": "634281-90",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "7300-UMB",
+                                "boardNumber": "634282C",
+                                "inStock": true
+                            },
+                            {
+                                "description": "DIFF ENCODER FEEDBACK MODULE 12 VDC",
+                                "catalogNumber": "7300-UMC",
+                                "boardNumber": "634619A",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "7300-UME",
+                                "boardNumber": "6216179",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "7300-UOB",
+                                "boardNumber": "634176-90",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "7300-UOD",
+                                "boardNumber": "634347-90",
+                                "inStock": true
+                            },
+                            {
+                                "description": "SOLENOID DRIVER 115 VAC",
+                                "catalogNumber": "7300-UOJ",
+                                "boardNumber": "634623",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "7300-UPG",
+                                "boardNumber": "634486",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "7300-UPG",
+                                "boardNumber": "634486A-90",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "7300-UPH",
+                                "boardNumber": "634487",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "7300-UPH",
+                                "boardNumber": "634487A",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "7300-UPH",
+                                "boardNumber": "634487G-90",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PROCESSOR INTERFACE",
+                                "catalogNumber": "7300-UPI",
+                                "boardNumber": "634488A",
+                                "inStock": true
+                            },
+                            {
+                                "description": "MICROCONTROL MODULE",
+                                "catalogNumber": "7300-UPJ",
+                                "boardNumber": "634489A-90",
+                                "inStock": true
+                            },
+                            {
+                                "description": "ARITHMATIC LOGIC UNIT",
+                                "catalogNumber": "7300-UPK",
+                                "boardNumber": "634490",
+                                "inStock": true
+                            },
+                            {
+                                "description": "ARITHMATIC LOGIC UNIT",
+                                "catalogNumber": "7300-UPK",
+                                "boardNumber": "644490AS-C-90",
+                                "inStock": true
+                            },
+                            {
+                                "description": "3264 PROCESSOR 32K MEMORY MODULE",
+                                "catalogNumber": "7300-UPV",
+                                "boardNumber": "635531-90",
+                                "inStock": false
+                            },
+                            {
+                                "description": "64K MEMORY MODULE",
+                                "catalogNumber": "7300-UPV3",
+                                "boardNumber": "900337",
+                                "inStock": false
+                            },
+                            {
+                                "description": "3264 PROCESSOR PANEL INTERFACE MODULE",
+                                "catalogNumber": "7300-UPW",
+                                "boardNumber": "635533",
+                                "inStock": false
+                            },
+                            {
+                                "description": "3264 PROCESSOR MICRO CONTROL MODULE",
+                                "catalogNumber": "7300-UPX",
+                                "boardNumber": "635537",
+                                "inStock": false
+                            },
+                            {
+                                "description": "RESOLVER FEEDBACK",
+                                "catalogNumber": "7300-VDZ",
+                                "boardNumber": "634978-90",
+                                "inStock": true
+                            },
+                            {
+                                "description": "MAIN POWER SUPPLY CONTROL MODULE",
+                                "catalogNumber": "7300-VPB",
+                                "boardNumber": "N/A",
+                                "inStock": false
+                            },
+                            {
+                                "description": "MAIN POWER SUPPLY REGULATOR MODULE",
+                                "catalogNumber": "7300-VPC",
+                                "boardNumber": "N/A",
+                                "inStock": false
+                            },
+                            {
+                                "description": "MAIN POWER SUPPLY DISTRIBUTION MODULE",
+                                "catalogNumber": "7300-VPD",
+                                "boardNumber": "N/A",
+                                "inStock": false
+                            },
+                            {
+                                "description": "MEMORY POWER SUPPLY",
+                                "catalogNumber": "7300-VPE",
+                                "boardNumber": "634434-90",
+                                "inStock": false
+                            },
+                            {
+                                "description": "POWER SUPPLY",
+                                "catalogNumber": "7300-VPT",
+                                "boardNumber": "635344-90",
+                                "inStock": false
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "7300-VPW",
+                                "boardNumber": "635533",
+                                "inStock": false
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "8000GDB",
+                                "boardNumber": "N/A",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "8000IOAB",
+                                "boardNumber": "N/A",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "8000IOBB",
+                                "boardNumber": "N/A",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "8000KAATZ",
+                                "boardNumber": "N/A",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "8000MB2",
+                                "boardNumber": "N/A",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "8000MDC",
+                                "boardNumber": "N/A",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "8000TSBA",
+                                "boardNumber": "9002422",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "90024232",
+                                "boardNumber": "90024241",
+                                "inStock": true
+                            },
+                            {
+                                "description": "PC BOARD",
+                                "catalogNumber": "900007",
+                                "boardNumber": "N/A",
+                                "inStock": true
+                            }
+                        ]
+                    },
+                    {
+                        "config":  "AB OSAI 8600",
+                        "onHandStock": [
+                            {
+                                "description": "POWER SUPPLY",
+                                "catalogNumber": "8600-PS20S",
+                                "boardNumber": "N/A",
+                                "inStock": true
+                            },
+                            {
+                                "description": "CPU MODULE",
+                                "catalogNumber": "8600-F18B",
+                                "boardNumber": "OS5001",
+                                "inStock": true
+                            },
+                            {
+                                "description": "FAST CPU",
+                                "catalogNumber": "8600-2079P",
+                                "boardNumber": "OS5005",
+                                "inStock": true
+                            },
+                            {
+                                "description": "SIPROM OR MEMORY MODULE",
+                                "catalogNumber": "8600-1983A",
+                                "boardNumber": "OS5240",
+                                "inStock": true
+                            },
+                            {
+                                "description": "MEMORY MODULE WITH FIRMWARE 80286 MC/TC",
+                                "catalogNumber": "8600-PS2C",
+                                "boardNumber": "OS5241",
+                                "inStock": true
+                            },
+                            {
+                                "description": "FEEDBACK MODULE 3 ENCODER",
+                                "catalogNumber": "8600-1699Y",
+                                "boardNumber": "OS5250",
+                                "inStock": true
+                            },
+                            {
+                                "description": "FEEDBACK MODULE 4 AXIS  RES/INDUCTOSYN",
+                                "catalogNumber": "8600-1967Z",
+                                "boardNumber": "OS5401",
+                                "inStock": true
+                            },
+                            {
+                                "description": "CONVERTER MODULE 8 A/D 8 D/A",
+                                "catalogNumber": "8600-1674L",
+                                "boardNumber": "OS5431",
+                                "inStock": true
+                            },
+                            {
+                                "description": "ENCODER FEEDBACK MODULE 4 AXIS",
+                                "catalogNumber": "8600-1966X",
+                                "boardNumber": "OS5441",
+                                "inStock": false
+                            },
+                            {
+                                "description": "32 IN /32 OUT MODULE",
+                                "catalogNumber": "8600-1726L",
+                                "boardNumber": "OS5550",
+                                "inStock": true
+                            },
+                            {
+                                "description": "32 I/O CARD",
+                                "catalogNumber": "8600-1726L",
+                                "boardNumber": "OS5551",
+                                "inStock": true
+                            },
+                            {
+                                "description": "64 INPUT MODULE",
+                                "catalogNumber": "8600-1893D",
+                                "boardNumber": "OS5560",
+                                "inStock": true
+                            },
+                            {
+                                "description": "OPERATOR INTERFACE PANEL CIRCUIT BOARD",
+                                "catalogNumber": "8600-1873L",
+                                "boardNumber": "OS5630",
+                                "inStock": true
+                            },
+                            {
+                                "description": "ACM-20 CIRCUIT BOARD",
+                                "catalogNumber": "8600-MULF2",
+                                "boardNumber": "OS5651",
+                                "inStock": true
+                            },
+                            {
+                                "description": "REMOTE I/O INTERFACE MODULE",
+                                "catalogNumber": "8600-2085K",
+                                "boardNumber": "OS5740",
+                                "inStock": true
+                            }
+                        ]
+                    }
+                ]
+
+            },
+            {
+                "id": 2,
+                "brandName": "Cincinnati Milacron Boards",
+                "brandConfig": [
+                    {
+                        "config": "Big Blue, 850, 900 & 950 Series",
+                        "onHandStock": [
+                            {
+                                "description": "HEllo",
+                                "catalogNumber": "",
+                                "inStock": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {   "id": 3,
+                "brandName": "Fanuc",
+                "brandConfig": [
+                    {
+                        "config": "3, 5, 6, 10, 11, 12 , 15, 16, 18, 21, 0 and Robot Series ",
+                        "onHandStock": [
+                            {
+                                "description": "",
+                                "catalogNumber": "",
+                                "inStock": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {   
+                "id": 4,
+                "brandName": "Gibbings & Lewis",
+                "brandConfig": [
+                    {
+                        "config": "G&L 8000",
+                        "onHandStock": [
+                            {
+                                "description": "",
+                                "catalogNumber": "",
+                                "boardNumber": "",
+                                "inStock": null,
+                                "note": "572 catalog numbers are equivalent to 502 catalog numbers. 573 catalog numbers are equivalent to 503 catalog numbers. Example: The 32 AC OUTPUT FUSED circuit board 572-03567-00 is equivalent to a 502-03567-00. Many other catalog numbers starting with M.xxxx are also equivalent to these boards. Please check with us if you need any G&L 8000 circuit board."
+                            }
+                        ]
+                    },
+                    {   
+                        "config": "G&L 800",
+                        "onHandStock": [
+                            {
+                                "description": "",
+                                "catalogNumber": "",
+                                "boardNumber": "",
+                                "inStock": null,
+                                "note": "572 catalog numbers are equivalent to 502 catalog numbers. 573 catalog numbers are equivalent to 503 catalog numbers. Example: The 32 AC OUTPUT FUSED circuit board 572-03567-00 is equivalent to a 502-03567-00. Many other catalog numbers starting with M.xxxx are also equivalent to these boards. Please check with us if you need any G&L 8000 circuit board."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {   
+                "id": 5,
+                "brandName": "GE",
+                "brandConfig": [
+                    {
+                        "config": "DC 300 Circuit Boards",
+                        "onHandStock": [
+                            {
+                                "description": "",
+                                "catalogNumber": "",
+                                "boardNumber": "",
+                                "inStock": null
+                            }
+                        ]
+                    },
+                    {
+                        "config": "Hi-AK PWM Servo Drivers",
+                        "onHandStock": [
+                            {
+                                "description": "",
+                                "catalogNumber": "",
+                                "boardNumber": "",
+                                "inStock": null
+                            }
+                        ]
+                    },
+                    {
+                        "config": "Spindle Drive Boards 193X-193W",
+                        "onHandStock": [
+                            {
+                                "description": "",
+                                "catalogNumber": "",
+                                "boardNumber": "",
+                                "inStock": null
+                            }
+                        ]
+                    },
+                    {
+                        "config": "1050T, 1050TZ, 1050MC, 1050MCCM and 1050P Circuit Boards",
+                        "onHandStock": [
+                            {
+                                "description": "",
+                                "catalogNumber": "",
+                                "altCatalogNumber": "",
+                                "boardNumber": "",
+                                "inStock": null
+                            }
+                        ]
+                    },
+                    {
+                        "config": "1050H, 1050HL, 1050HM, 1050HLX Circuit Boards",
+                        "onHandStock": [
+                            {
+                                "description": "",
+                                "catalogNumber": "",
+                                "boardNumber": "",
+                                "inStock": null
+                            }
+                        ]
+                    },
+                    {
+                        "config": "1050MCL, GE 1050TL and TOSHIBA",
+                        "onHandStock": [
+                            {
+                                "description": "",
+                                "boardNumber": "",
+                                "inStock": null
+                            }
+                        ]
+                    },
+                    {
+                        "config": "GE 2000 Circuit Boards",
+                        "onHandStock": [
+                            {
+                                "description": "",
+                                "catalogNumber": "",
+                                "boardNumber": "",
+                                "inStock": null
+                            }
+                        ]
+                    },
+                    {
+                        "config": "GE 550 Circuit Boards",
+                        "onHandStock": [
+                            {
+                                "description": "",
+                                "catalogNumber": "",
+                                "boardNumber": "",
+                                "inStock": null
+                            }
+                        ]
+                    },
+                    {
+                        "config": "GE 7500 Circuit Boards",
+                        "onHandStock": [
+                            {
+                                "description": "",
+                                "catalogNumber": "",
+                                "boardNumber": "",
+                                "inStock": null
+                            }
+                        ]
+                    },
+                    {
+                        "config": "GE 100 Circuit Boards",
+                        "onHandStock": [
+                            {
+                                "description": "",
+                                "catalogNumber": "",
+                                "boardNumber": "",
+                                "inStock": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
