@@ -28,7 +28,7 @@ const HeaderInfo = ({icon, information}) => (
             alt={information}
         />
         <p className='text-xs font-bold ml-2 text-zinc-700
-                        lg:text-sm'>
+                        lg:text-sm lg:font-semibold'>
             {information}
         </p>
     </div>
@@ -39,7 +39,8 @@ export default function Header() {
     return(
         <div className="relative pt-40 pb-12 z-0 flex items-center justify-center
                         sm:justify-start sm:pt-48
-                        md:pt-60 md:pb-20 md:h-[40rem]">
+                        md:pt-60 md:pb-20 md:h-[40rem]
+                        lg:h-[45rem]">
             <Image
                 priority
                 layout="fill"
@@ -50,7 +51,7 @@ export default function Header() {
             <div className="relative flex flex-col space-y-3 w-full px-4 py-6 z-1 bg-white/60  shadow-lg
                             sm:px-12 sm:w-3/5 sm:max-w-sm sm:rounded-r-lg
                             md:w-7/12 md:max-w-md
-                            lg:px-18">
+                            lg:max-w-lg lg:w-1/2 lg:px-18">
                 <div className=''>
                     <p className='text-3xl font-extrabold mb-2 text-red-600
                                     lg:text-4xl'>

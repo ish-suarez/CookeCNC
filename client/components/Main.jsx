@@ -51,7 +51,8 @@ const Overview = () => {
                         md:my-40">
             <div className='flex flex-wrap items-center my-6 w-full justify-around px-5 max-w-sm
                             sm:flex-row sm:flex-wrap sm:w-1/2 sm:max-w-md
-                            md:w-3/5' >
+                            md:w-3/5
+                            lg:max-w-lg lg:w-2/3' >
                 <div className='flex flex-col space-y-4 py-5
                                 '>
                     <p className="text-2xl font-bold text-center text-red-500
@@ -70,7 +71,8 @@ const Overview = () => {
             </div>
             <div className='w-full flex justify-center my-6 
                             sm:w-1/2 sm:max-w-md
-                            md:w-2/5'>
+                            md:w-2/5
+                            lg:max-w-sm'>
                 <div className='flex flex-wrap justify-center 
                                 '>
                     {images.map(({ image, imageInfo }) => (
@@ -93,7 +95,7 @@ const AboutUs = () => {
         <div id='AboutUs' className='flex justify-center w-full relative px-3 py-28
                                     sm:px-24 sm:w-full sm:my-5
                                     md:py-52
-                                    lg:px-20'>
+                                    lg:px-20 lg:py-40'>
             <Image
                 priority
                 className='object-cover object-bottom'
@@ -102,10 +104,10 @@ const AboutUs = () => {
                 alt='circuit boart background'
                 
             />
-            <div className='relative flex-col bg-slate-700/90 py-7 rounded-lg space-y-3
+            <div className='relative flex-col bg-slate-700/90 py-7 rounded-lg drop-shadow-md shadow-zinc-300 space-y-3
                             sm:rounded-sm sm:px-6
                             md:max-w-lg
-                            lg:px-14 lg:max-w-none' >
+                            lg:rounded-xl' >
                 <p className='text-amber-50 text-2xl font-extrabold text-center
                                 sm:text-3xl
                                 lg:text-4xl'>

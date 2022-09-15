@@ -5,6 +5,12 @@
       "static/chunks/components_Signature_jsx.js"
     ]
   },
+  "CNCParts/index.jsx -> ../../components/StockItem": {
+    "id": "CNCParts/index.jsx -> ../../components/StockItem",
+    "files": [
+      "static/chunks/components_StockItem_jsx.js"
+    ]
+  },
   "index.js -> ../components/Header": {
     "id": "index.js -> ../components/Header",
     "files": [
