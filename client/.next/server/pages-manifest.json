@@ -2,7 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/CNCParts": "pages/CNCParts.js",
-  "/CNCParts/[id]": "pages/CNCParts/[id].js",
-  "/CNCParts/[id]/[config]": "pages/CNCParts/[id]/[config].js"
+  "/": "pages/index.js"
 }

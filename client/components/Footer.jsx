@@ -62,11 +62,22 @@ export default function Footer() {
                     Contact Us<span className='text-sm'> We Speak Spanish</span>
                 </p>
                 <div className="w-full flex flex-col">
-                    <div className='flex flex-col w-auto font-medium text-zinc-700 px-5 space-y-1 py-3'>
-                        <a className='hover:text-red-400 text-sm hover:underline w-fit' href={`tel:${phoneNumber1}`}>{phoneNumber1}</a>
-                        <a className='hover:text-red-400 text-sm hover:underline w-fit' href={`tel:${phoneNumber2}`}>{phoneNumber2}</a>
-                        <p className='hover:text-red-400 text-sm hover:underline w-fit'>Fax. {faxNumber}</p>
-                        <a className='hover:text-red-400 text-sm hover:underline w-fit' href={`mailto:${emailAddress}`} >{emailAddress}</a>
+                    <div className='flex flex-col w-auto font-medium text-zinc-700 px-5 space-y-3 py-3'>
+                        <div className=''>
+                            <p className='text-sm border-b-2 border-red-500 w-32'>Phone Numbers</p>
+                            <div className='flex flex-col py-2'>
+                                <a className='hover:text-red-400 text-sm hover:underline w-fit' href={`tel:${phoneNumber1}`}>{phoneNumber1}</a>
+                                <a className='hover:text-red-400 text-sm hover:underline w-fit' href={`tel:${phoneNumber2}`}>{phoneNumber2}</a>
+                            </div>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p className='text-sm border-b-2 border-red-500 w-32'>Fax Number</p>
+                            <p className='text-sm w-fit py-2'>{faxNumber}</p>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p className='text-sm border-b-2 border-red-500 w-32'>Email Address</p>
+                            <a className='hover:text-red-400 text-sm hover:underline w-fit py-2' href={`mailto:${emailAddress}`} >{emailAddress}</a>
+                        </div>
                     </div>
                     <div className="flex justify-center self-center py-10 space-x-4">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3462.504980404659!2d-95.7113881845008!3d29.791952181974892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640d9d90eebee77%3A0x2bd92e06f1034802!2sCooke%20CNC%20Service!5e0!3m2!1sen!2sus!4v1662397030924!5m2!1sen!2sus"

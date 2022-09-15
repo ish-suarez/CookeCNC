@@ -93,7 +93,7 @@ const AboutUs = () => {
         <div id='AboutUs' className='flex justify-center w-full relative px-3 py-28
                                     sm:px-24 sm:w-full sm:my-5
                                     md:py-52
-                                    lg:px-40'>
+                                    lg:px-20'>
             <Image
                 priority
                 className='object-cover object-bottom'
@@ -102,10 +102,10 @@ const AboutUs = () => {
                 alt='circuit boart background'
                 
             />
-            <div className='relative bg-slate-700/90 py-7 rounded-lg space-y-3
+            <div className='relative flex-col bg-slate-700/90 py-7 rounded-lg space-y-3
                             sm:rounded-sm sm:px-6
                             md:max-w-lg
-                            lg:px-14' >
+                            lg:px-14 lg:max-w-none' >
                 <p className='text-amber-50 text-2xl font-extrabold text-center
                                 sm:text-3xl
                                 lg:text-4xl'>

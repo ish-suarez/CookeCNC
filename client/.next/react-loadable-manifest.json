@@ -5,24 +5,6 @@
       "static/chunks/components_Signature_jsx.js"
     ]
   },
-  "CNCParts/[id]/[config].jsx -> ../../../components/ConfigOnHandStock": {
-    "id": "CNCParts/[id]/[config].jsx -> ../../../components/ConfigOnHandStock",
-    "files": [
-      "static/chunks/components_ConfigOnHandStock_jsx.js"
-    ]
-  },
-  "CNCParts/[id]/index.jsx -> ../../../components/ConfigInfo": {
-    "id": "CNCParts/[id]/index.jsx -> ../../../components/ConfigInfo",
-    "files": [
-      "static/chunks/components_ConfigInfo_jsx.js"
-    ]
-  },
-  "CNCParts/index.jsx -> ../../components/StockItem": {
-    "id": "CNCParts/index.jsx -> ../../components/StockItem",
-    "files": [
-      "static/chunks/components_StockItem_jsx.js"
-    ]
-  },
   "index.js -> ../components/Header": {
     "id": "index.js -> ../components/Header",
     "files": [
