@@ -48,8 +48,8 @@ export default function Header() {
                 alt='warehouse'
             />
             <div className="relative flex flex-col space-y-3 w-full px-4 py-6 z-1 bg-white/60  shadow-lg
-                            sm:px-12 sm:w-3/5 sm:rounded-r-lg
-                            md:w-7/12 md:max-w-lg
+                            sm:px-12 sm:w-3/5 sm:max-w-sm sm:rounded-r-lg
+                            md:w-7/12 md:max-w-md
                             lg:px-18">
                 <div className=''>
                     <p className='text-3xl font-extrabold mb-2 text-red-600
@@ -69,7 +69,7 @@ export default function Header() {
                     </div>
                 </div>
                 <Link href={'/#ContactUs'} as={'/#ContactUs'}>
-                    <button className='bg-red-600 transition-all duration-300 ease-in-out text-white font-semibold text-lg py-1 w-1/2 rounded-md shadow-lg
+                    <button className='bg-red-600 transition-all duration-300 ease-in-out text-white font-semibold text-lg py-1 w-1/2 max-w-xs rounded-md shadow-lg
                                         hover:bg-red-500 hover:hover:scale-105 hover:shadow-xl'>
                         Contact Us
                     </button>

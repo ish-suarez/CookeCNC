@@ -46,11 +46,11 @@ const OverviewImages = ({ image, imageInfo }) => (
 
 const Overview = () => {
     return (
-        <div className="flex flex-col items-center justify-center w-full 
-                        sm:pb-0 sm:flex-row sm:my-20
+        <div className="flex flex-col items-center justify-center w-full my-28
+                        sm:pb-0 sm:flex-row sm:my-32
                         md:my-40">
-            <div className='flex flex-wrap items-center my-6 w-full justify-around px-5
-                            sm:flex-row sm:flex-wrap sm:w-1/2
+            <div className='flex flex-wrap items-center my-6 w-full justify-around px-5 max-w-sm
+                            sm:flex-row sm:flex-wrap sm:w-1/2 sm:max-w-md
                             md:w-3/5' >
                 <div className='flex flex-col space-y-4 py-5
                                 '>
@@ -90,7 +90,7 @@ const Overview = () => {
 
 const AboutUs = () => {
     return(
-        <div id='AboutUs' className='w-full relative py-20 px-3
+        <div id='AboutUs' className='flex justify-center w-full relative px-3 py-28
                                     sm:px-24 sm:w-full sm:my-5
                                     md:py-52
                                     lg:px-40'>
@@ -104,6 +104,7 @@ const AboutUs = () => {
             />
             <div className='relative bg-slate-700/90 py-7 rounded-lg space-y-3
                             sm:rounded-sm sm:px-6
+                            md:max-w-lg
                             lg:px-14' >
                 <p className='text-amber-50 text-2xl font-extrabold text-center
                                 sm:text-3xl

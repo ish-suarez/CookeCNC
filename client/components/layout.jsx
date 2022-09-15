@@ -12,7 +12,7 @@ export default function Layout({ children, home }) {
                 <title>{websiteTitle}</title>
                 <meta name="og:title" content={websiteTitle} />
             </Head>
-            <div className='relative z-10'>
+            <div className='fixed w-full z-10'>
                 <Navbar  />
             </div>
 

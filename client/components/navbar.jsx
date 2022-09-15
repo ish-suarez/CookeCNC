@@ -31,7 +31,7 @@ const MobileNav = ({ open, setOpen }) => {
     return (
         <div className={`z-20 px-4 py-2 fixed top-0 left-0 w-full bg-red-600 transform ${open ? "translate-y-0" : "-translate-y-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md `}>
             <div className="flex flex-col">
-                <Link href='/#' as={'/#'}>
+                <Link href='/#' as={'/#'} >
                     <div className='cursor-pointer w-9/12 flex flex-col text-xl font-semibold text-white'>
                         <span className="border-b-2">Cooke CNC</span>
                         <span className="text-xs ml-7">Supplying CNC Parts Worldwide</span>
