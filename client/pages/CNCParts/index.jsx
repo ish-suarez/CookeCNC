@@ -3,7 +3,7 @@ import { getInventoryData } from '../../lib/inventory';
 
 const StockItem = Dynamic(() => import('../../components/StockItem'), {ssr: false})
 
-const ROUTE_CNC_PARTS = '/CNCParts/[id]'
+export const ROUTE_CNC_PARTS = '/CNCParts/[id]'
 
 
 export async function getStaticProps() {

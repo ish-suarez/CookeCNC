@@ -1,3 +1,4 @@
+import { useRouter } from 'next/router'
 import dynamic from 'next/dynamic';
 import { getItemData, getInventoryData } from "../../../lib/inventory"
 const ConfigInfo = dynamic(() => import('../../../components/ConfigInfo'), {ssr: false})
@@ -32,9 +33,13 @@ export async function getStaticPaths() {
 }
 
 export default function Item({ inventory: { brandName, id, brandConfig } }) {
+    const router = useRouter()
 
     return(
-        <div className='py-20'>
+        <div className='py-40 relative'>
+            <div className='absolute top-24 left-2'>
+                <p onClick={() => router.back()} className='text-xs cursor-pointer text-gray-600 hover:text-gray-800'>Back to Brands</p>
+            </div>
             <p className='px-3 py-1 text-xl font-semibold'>{brandName}</p>
             <div className='py-2'>
                 <p className='px-7 text-lg'>Configurations: </p>

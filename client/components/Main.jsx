@@ -56,7 +56,8 @@ const Overview = () => {
                 <div className='flex flex-col space-y-4 py-5
                                 '>
                     <p className="text-2xl font-bold text-center text-red-500
-                                sm:text-center">
+                                sm:text-center
+                                lg:text-3xl">
                         Thousands of CNC Parts from Trusted Brands.
                     </p>
                     <p className='text-center text-sm text-slate-600

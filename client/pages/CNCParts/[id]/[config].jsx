@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { useRouter } from "next/router";
 import dynamic from "next/dynamic";
 // import styles from '../../../styles/[config].module.css'
 import { useState } from "react";
@@ -38,15 +38,19 @@ export async function getStaticPaths() {
 
 
 export default function Config({ inventory: { brandName, brandConfig } }) {
+    const router = useRouter();
     const [partInformationOpen, setPartInformationOpen] = useState({});
 
     const collapseByDescription = config => {
-        setPartInformationOpen((prevState => ({...prevState, [config]: !prevState[config]})))
+        setPartInformationOpen((prevState => ({...prevState, [config]: !prevState[config]})));
     }
 
 
     return (
-        <div className="py-20">
+        <div className="py-40 relative">
+            <div className='absolute top-24 left-2'>
+                <p onClick={() => router.back()} className='text-xs cursor-pointer text-gray-600 hover:text-gray-800'>Go Back</p>
+            </div>
             <ConfigOnHandStock 
                 brandName={brandName} 
                 brandConfig={brandConfig} 
