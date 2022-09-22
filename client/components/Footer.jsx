@@ -69,17 +69,17 @@ export default function Footer() {
                         <div className=''>
                             <p className='text-sm border-b-2 border-red-400 w-32'>Phone Numbers</p>
                             <div className='flex flex-col py-2'>
-                                <a className='hover:text-red-400 transition ease-in-out text-sm hover:underline w-fit' href={`tel:${phoneNumber1}`}>{phoneNumber1}</a>
-                                <a className='hover:text-red-400 transition ease-in-out text-sm hover:underline w-fit' href={`tel:${phoneNumber2}`}>{phoneNumber2}</a>
+                                <a className='hover:text-red-400 transition ease-in-out text-sm hover:underline w-fit indent-2' href={`tel:${phoneNumber1}`}>{phoneNumber1}</a>
+                                <a className='hover:text-red-400 transition ease-in-out text-sm hover:underline w-fit indent-2' href={`tel:${phoneNumber2}`}>{phoneNumber2}</a>
                             </div>
                         </div>
                         <div className='flex flex-col'>
                             <p className='text-sm border-b-2 border-red-400 w-32'>Fax Number</p>
-                            <p className='text-sm w-fit py-2'>{faxNumber}</p>
+                            <p className='text-sm w-fit py-2 indent-2'>{faxNumber}</p>
                         </div>
                         <div className='flex flex-col'>
                             <p className='text-sm border-b-2 border-red-400 w-32'>Email Address</p>
-                            <a className='hover:text-red-400 transition ease-in-out text-sm hover:underline w-fit py-2' href={`mailto:${emailAddress}`} >{emailAddress}</a>
+                            <a className='hover:text-red-400 transition ease-in-out text-sm hover:underline w-fit py-2 indent-2' href={`mailto:${emailAddress}`} >{emailAddress}</a>
                         </div>
                     </div>
                     <div className="flex justify-center self-center py-10 space-x-4

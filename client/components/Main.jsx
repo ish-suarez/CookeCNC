@@ -135,7 +135,7 @@ const AboutUs = () => {
                 </div>
 
                 <div className='flex flex-wrap justify-center py-4 items-center w-full 
-                                md:flex-row-reverse' >
+                                md:justify-start' >
                     <Image 
                         priority
                         src={'https://img.icons8.com/carbon-copy/100/ECF0F1/around-the-globe.png'} 

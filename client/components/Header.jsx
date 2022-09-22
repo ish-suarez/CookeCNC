@@ -70,8 +70,8 @@ export default function Header() {
                     </div>
                 </div>
                 <Link href={'/#ContactUs'} as={'/#ContactUs'}>
-                    <button className='bg-red-600 transition-all duration-300 ease-in-out text-white font-semibold text-lg py-1 w-1/2 max-w-xs rounded-md shadow-lg
-                                        hover:bg-red-500 hover:hover:scale-105 hover:shadow-xl'>
+                    <button className='bg-red-500 transition-all duration-300 ease-in-out text-white font-semibold text-lg py-1 w-1/2 max-w-xs rounded-md shadow-lg
+                                        hover:bg-red-600 hover:hover:scale-105 hover:shadow-xl'>
                         Contact Us
                     </button>
                 </Link>

@@ -5,12 +5,6 @@
       "static/chunks/components_Signature_jsx.js"
     ]
   },
-  "CNCParts/[id]/[config].jsx -> ../../../components/ConfigOnHandStock": {
-    "id": "CNCParts/[id]/[config].jsx -> ../../../components/ConfigOnHandStock",
-    "files": [
-      "static/chunks/components_ConfigOnHandStock_jsx.js"
-    ]
-  },
   "index.js -> ../components/Header": {
     "id": "index.js -> ../components/Header",
     "files": [
