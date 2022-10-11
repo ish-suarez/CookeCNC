@@ -1,8 +1,0 @@
-{
-  "../components/Footer.jsx -> ./Signature": {
-    "id": "../components/Footer.jsx -> ./Signature",
-    "files": [
-      "static/chunks/components_Signature_jsx.js"
-    ]
-  }
-}
