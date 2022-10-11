@@ -1,6 +1,6 @@
 import Dynamic from 'next/dynamic';
 import Head from 'next/head'
-import { websiteTitle } from '../components/Layout'
+import { websiteTitle } from '../components/layout'
 
 const Header = Dynamic(() => import('../components/Header'), {ssr: false})
 const Main = Dynamic(() => import('../components/Main'), {ssr: false})
