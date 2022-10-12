@@ -4,8 +4,10 @@ import Head from 'next/head'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
+export const websiteTitle = 'Cooke CNC'
+
 export default function Layout({ children, home }) {
-    const websiteTitle = 'Cooke CNC'
+    
     return(
         <div className='z-40'>
             <Head>
