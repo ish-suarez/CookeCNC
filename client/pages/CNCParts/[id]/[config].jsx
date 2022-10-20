@@ -1,9 +1,7 @@
 import { useRouter } from "next/router";
-import dynamic from "next/dynamic";
 import Image from 'next/image';
 import Collapse from 'react-collapse';
 
-// import styles from '../../../styles/[config].module.css'
 import { useState } from "react";
 import { getInventoryData, getConfigsByIdAndConfig } from "../../../lib/inventory";
 
